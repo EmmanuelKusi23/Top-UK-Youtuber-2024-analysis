@@ -118,6 +118,7 @@ Below is a visaulization presentation shwocasing the various youtubers along wit
 ![Data Transformation Process](assets/images/Top UK youtubers 2024.png)
 
 # Findings
+![Data Transformation Process](assets/images/data transformation.png)
 
 
 
