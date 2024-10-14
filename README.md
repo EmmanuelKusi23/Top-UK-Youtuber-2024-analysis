@@ -113,16 +113,81 @@ FROM
 
 # Data visualisation
 
-Below is a visaulization presentation shwocasing the various youtubers along with their viewship metrics
+Below is a visualization presentation showcasing the various youtubers along with their viewship metrics
 
 ![Data Visualisation](assets/images/Top UK youtubers 2024.png)
+The Power BI dashboard provides an insightful analysis of the top UK YouTubers based on several key metrics, helping the investment team assess potential partnership opportunities.
+
+Key Observations:
+Top YouTubers by Subscriber Count:
+
+NoCopyrightSounds holds the largest subscriber base, followed closely by DanTDM and Dan Rhodes. These channels offer significant reach, making them valuable for product partnerships.
+
+Top 10 YouTubers (Treemap Visualization):
+
+DanTDM and Miss Katy stand out in terms of prominence, suggesting they dominate in overall metrics such as subscribers and views.
+
+Channel Engagement Ratios:
+
+The dashboard highlights key engagement metrics:
+Average views per video is 1.02M, indicating solid viewership across the channels.
+Views per Subscriber stands at 446.41, suggesting that the audience is actively consuming content relative to the subscriber count.
+Subscriber Engagement Rate is notably low, at 0.00. This could suggest limited interaction in terms of likes, comments, or shares, requiring further analysis of engagement beyond just views.
+
+Strategic Insights for the Investment Team:
+Channels like NoCopyrightSounds, DanTDM, and DanRhodes should be considered for partnerships based on their high subscriber counts and viewership metrics.
+Woody & Kleiny are particularly attractive due to their high total views, making them ideal for campaigns focused on wide-reaching visibility.
+The relatively low engagement rate suggests that while views are strong, deeper interaction metrics should be considered for certain YouTubers, ensuring that partnerships target not only reach but also active audience participation.
 
 # Findings
 
 
 ![Data Findings](assets/images/excel vs%20 sql analysis.png)
 
+Key Assumptions and Inputs:
+Conversion rate: 2% (0.02), which implies that 2% of viewers potentially purchase a product.
+Product cost: $5 per unit.
+Campaign cost: $50,000 per video.
+Channels:
+The analysis is conducted on three channels:
 
+NoCopyrightSounds
+DanTDM
+Dan Rhodes
+Metrics Being Compared:
+Average Views per Video (Excel vs SQL): This column shows that the average views per video are identical between the Excel and SQL methods, indicating consistency in the source data.
+
+Potential Product Sales per Video:
+
+This is calculated by multiplying the average views by the conversion rate (2%).
+The number of potential sales per video is also the same for both Excel and SQL analyses.
+Examples:
+
+NoCopyrightSounds: 138,400 sales.
+DanTDM: 106,800 sales.
+Dan Rhodes: 223,000 sales.
+Potential Revenue per Video ($ USD):
+
+This is calculated by multiplying the potential product sales by the product cost ($5).
+Again, the figures match between the Excel and SQL calculations, showing no discrepancy.
+
+Net profit is the potential revenue minus the campaign cost ($50,000).
+As expected, these values are the same in both Excel and SQL columns.
+Examples:
+
+NoCopyrightSounds: $642,000.
+DanTDM: $484,000.
+Dan Rhodes: $1,065,000.
+Observations:
+Accuracy of Data (Excel vs SQL): There are no differences in any of the metrics between the two methods (Excel vs SQL), indicating that both analyses yield the same results.
+
+Revenue and Profit Trends:
+
+Dan Rhodes has the highest potential revenue and net profit per video due to the large number of views (111.5M average views).
+NoCopyrightSounds ranks second in both revenue and profit.
+DanTDM has the lowest potential revenue and profit, driven by the lower view count (53.4M).
+Conclusion:
+The table shows consistent results between Excel and SQL analyses across all key metrics, including potential product sales, revenue, and net profit. Dan Rhodes is the most profitable channel by a wide margin, while DanTDM, despite having fewer views, still generates a significant profit
 
 
 
