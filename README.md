@@ -20,20 +20,20 @@
 
 
 
-# objective
+# Objective
 
 Design a dashboard that delivers critical insights into the top UK YouTubers, enabling the investment team to strategically identify which creators present the best partnership opportunities based on their viewership metrics. The goal is to help the company choose influencers whose audience engagement and reach can drive product sales, maximize revenue, and contribute to the overall growth of the company and its product portfolio
 
 
-# data-source
+# Data-source
 
 The data was sourced from kaggle and contains the viewship metrics of each individual youtuber such as channel name,views,subcribers and total videos
 
-# design
+# Design
 
 Design a Power BI dashboard that showcases key viewership metrics of individual YouTubers, providing the investment team with a comprehensive and interactive overview of each creator's performance. The dashboard should offer a user-friendly interface, enabling detailed analysis of various metrics to support informed decision-making when selecting potential partners for product promotion and revenue growth
 
-# tools
+# Tools
 
 |Tool 	|Purpose|
 |-------|-------|
@@ -42,15 +42,15 @@ Design a Power BI dashboard that showcases key viewership metrics of individual 
 |Power BI 	|Visualizing the data via interactive dashboards|
 |GitHub 	|Hosting the project documentation and version control|
 
-# development
+# Development
 The process begins with gathering the relevant dataset, followed by an initial exploration in Excel to understand the data. The data is then loaded into SQL Server for structured storage and cleaned using SQL queries to ensure accuracy. After testing the data for consistency, it is visualized in Power BI, where key viewership metrics and insights are presented. These findings are analyzed to determine the best YouTuber partnerships for the investment team. The process is documented, and finally, the data, insights, and documentation are published on GitHub Pages for easy access and collaboration
 
 
-## data-exploration
+## Data-exploration
 
 The dataset is first explored in Excel to perform an initial review, where key columns are identified, data profiling is conducted, and the the patterns in the dataset examined. Once a basic understanding is established, the data is imported into SQL Server to enable more robust handling, and querying, ensuring it is ready for  efficient analysis
 
-## data-cleaning
+## Data-cleaning
 The objective is to refine the dataset, ensuring it is well-structured and ready for analysis. This involves retaining only relevant columns, ensuring data types are appropriate for each column, and eliminating null values to guarantee that all records are complete and accurate
 
 Below is a table outlining the constraints on our cleaned dataset:
@@ -68,7 +68,7 @@ And here is a tabular representation of the expected schema for the clean data:
 |total_videos 	|INTEGER 	|NO|
 
 
-## data-transformation
+## Data-transformation
 
 
 
