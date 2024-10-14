@@ -50,7 +50,7 @@ The process begins with gathering the relevant dataset, followed by an initial e
 
 The dataset is first explored in Excel to perform an initial review, where key columns are identified, data profiling is conducted, and the the patterns in the dataset examined. Once a basic understanding is established, the data is imported into SQL Server to enable more robust handling, and querying, ensuring it is ready for  efficient analysis
 
-## Data-cleaning
+## Data cleaning
 The objective is to refine the dataset, ensuring it is well-structured and ready for analysis. This involves retaining only relevant columns, ensuring data types are appropriate for each column, and eliminating null values to guarantee that all records are complete and accurate
 
 Below is a table outlining the constraints on our cleaned dataset:
@@ -70,24 +70,50 @@ And here is a tabular representation of the expected schema for the clean data:
 
 ## Data transformation
 
+```sql
+
+/*
+# 1. Select the required columns
+# 2. Extract the channel name from the 'NOMBRE' column
+*/
+
+-- 1.
+SELECT
+    SUBSTRING(NOMBRE, 1, CHARINDEX('@', NOMBRE) -1) AS channel_name,  -- 2.
+    total_subscribers,
+    total_views,
+    total_videos
+
+FROM
+    top_uk_youtubers_2024
+
+```
+
+``` sql
+/*
+# 1. Create a view to store the transformed data
+# 2. Cast the extracted channel name as VARCHAR(100)
+# 3. Select the required columns from the top_uk_youtubers_2024 SQL table 
+*/
+
+-- 1.
+CREATE VIEW view_uk_youtubers_2024 AS
+
+-- 2.
+SELECT
+    CAST(SUBSTRING(NOMBRE, 1, CHARINDEX('@', NOMBRE) -1) AS VARCHAR(100)) AS channel_name, -- 2. 
+    total_subscribers,
+    total_views,
+    total_videos
+
+-- 3.
+FROM
+    top_uk_youtubers_2024
+```
+
+# Data visualisation
 
 
-
-Explore the Data in Excel: Conduct an initial review of the dataset in Excel, performing tasks such as data profiling, identifying key columns, and getting a preliminary understanding of patterns or outliers.
-
-Load the Data into SQL Server: Import the dataset into SQL Server for more robust data handling, storage, and querying, ensuring scalability and efficiency for further analysis.
-
-Clean the Data with SQL: Use SQL queries to clean and preprocess the data by removing duplicates, handling missing values, correcting inconsistencies, and transforming raw data into structured formats for better analysis.
-
-Test the Data with SQL: Validate the data's integrity by running SQL tests to ensure accuracy, consistency, and reliability. This includes verifying data ranges, relationships, and constraints.
-
-Visualize the Data in Power BI: Build interactive visualizations and dashboards in Power BI, showcasing key metrics like viewership, subscriber growth, engagement rates, and other performance indicators of each YouTuber.
-
-Generate Findings Based on Insights: Analyze the Power BI visuals to derive meaningful insights about the YouTubers' performance, identifying trends and metrics that are crucial for decision-making, such as which YouTubers offer the best partnership potential.
-
-Write the Documentation + Commentary: Document the entire process, including data acquisition, cleaning steps, testing procedures, insights from visualizations, and a narrative commentary explaining the results and recommendations for stakeholders.
-
-Publish the Data to GitHub Pages: Share the final data, visualizations, and documentation publicly by publishing them to GitHub Pages, allowing for easy access and collaboration across the team or broader audience
 
 
 
