@@ -25,7 +25,7 @@
 Design a dashboard that delivers critical insights into the top UK YouTubers, enabling the investment team to strategically identify which creators present the best partnership opportunities based on their viewership metrics. The goal is to help the company choose influencers whose audience engagement and reach can drive product sales, maximize revenue, and contribute to the overall growth of the company and its product portfolio
 
 
-# Data-source
+# Data source
 
 The data was sourced from kaggle and contains the viewship metrics of each individual youtuber such as channel name,views,subcribers and total videos
 
@@ -46,7 +46,7 @@ Design a Power BI dashboard that showcases key viewership metrics of individual 
 The process begins with gathering the relevant dataset, followed by an initial exploration in Excel to understand the data. The data is then loaded into SQL Server for structured storage and cleaned using SQL queries to ensure accuracy. After testing the data for consistency, it is visualized in Power BI, where key viewership metrics and insights are presented. These findings are analyzed to determine the best YouTuber partnerships for the investment team. The process is documented, and finally, the data, insights, and documentation are published on GitHub Pages for easy access and collaboration
 
 
-## Data-exploration
+## Data exploration
 
 The dataset is first explored in Excel to perform an initial review, where key columns are identified, data profiling is conducted, and the the patterns in the dataset examined. Once a basic understanding is established, the data is imported into SQL Server to enable more robust handling, and querying, ensuring it is ready for  efficient analysis
 
@@ -62,13 +62,13 @@ Below is a table outlining the constraints on our cleaned dataset:
 And here is a tabular representation of the expected schema for the clean data:
 |Column Name 	|Data Type 	|Null|
 |-------------|-----------|----|
-|channel_name 	|VARCHAR 	|NO |
-|total_subscribers 	|INTEGER| 	NO|
-|total_views| 	INTEGER |	NO|
-|total_videos 	|INTEGER 	|NO|
+|channel_name 	|VARCHAR 	|  NO|
+|total_subscribers|INTEGER|NO  |
+|total_views| 	INTEGER   |	NO |
+|total_videos 	|INTEGER 	|NO  |
 
 
-## Data-transformation
+## Data transformation
 
 
 
