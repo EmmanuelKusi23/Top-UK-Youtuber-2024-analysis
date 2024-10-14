@@ -53,13 +53,15 @@ The dataset is first explored in Excel to perform an initial review, where key c
 ## Data cleaning
 The objective is to refine the dataset, ensuring it is well-structured and ready for analysis. This involves retaining only relevant columns, ensuring data types are appropriate for each column, and eliminating null values to guarantee that all records are complete and accurate
 
-Below is a table outlining the constraints on our cleaned dataset:
+Below is a table outlining the constraints on our cleaned dataset
+
 |Property |	Description |
 |---------|-------------|
 |Number of Rows | 	100 |
 |Number of Columns |	4 |
 
-And here is a tabular representation of the expected schema for the clean data:
+And here is a tabular representation of the expected schema for the clean data
+
 |Column Name 	    |Data Type 	|Null|
 |-----------------|-----------|----|
 |channel_name 	  |VARCHAR 	  |NO  |
