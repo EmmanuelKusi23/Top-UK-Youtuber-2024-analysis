@@ -118,35 +118,18 @@ Below is a visaulization presentation shwocasing the various youtubers along wit
 ![Data Transformation Process](assets/images/Top UK youtubers 2024.png)
 
 # Findings
-![Data Transformation Process](assets/images/data transformation.png)
 
 
-
-
-
-
-
-
-
+![Data Transformation Process](assets/images/excel vs%20 sql analysis.png)
 
 
 
 
 
 # Recommendations
+Based the viewship metrics that is the views per subcriber, Dan Rhodes appears to be the best option because there is a higher ROI compared to other channels
 
 
-
-
-
-
-
-
-
-
-
-
-# Conclusion
 
 
 
