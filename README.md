@@ -1,5 +1,7 @@
 # Research Porfolio: Excel to SQL to PowerBI
 
+![Data Transformation Process](ass
+
 # Table of contents
 
 - [Objective](#objective)
@@ -10,7 +12,7 @@
   - [Data Exploration](#data-exploration)
   - [Data Cleaning](#data-cleaning)
   - [Data Transformation](#data-transformation)
-  - [   
+  - [  
 
 
 
