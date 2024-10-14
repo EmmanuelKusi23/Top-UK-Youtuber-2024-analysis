@@ -60,12 +60,12 @@ Below is a table outlining the constraints on our cleaned dataset:
 |Number of Columns |	4 |
 
 And here is a tabular representation of the expected schema for the clean data:
-|Column Name 	|Data Type 	|Null|
-|-------------|-----------|----|
-|channel_name 	|VARCHAR 	|  NO|
-|total_subscribers|INTEGER|NO  |
-|total_views| 	INTEGER   |	NO |
-|total_videos 	|INTEGER 	|NO  |
+|Column Name 	    |Data Type 	|Null|
+|-----------------|-----------|----|
+|channel_name 	  |VARCHAR 	  |NO  |
+|total_subscribers|INTEGER    |NO  |
+|total_views      |INTEGER    |NO  |
+|total_videos 	  |INTEGER 	  |NO  |
 
 
 ## Data transformation
