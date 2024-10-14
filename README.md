@@ -115,12 +115,12 @@ FROM
 
 Below is a visaulization presentation shwocasing the various youtubers along with their viewship metrics
 
-![Data Transformation Process](assets/images/Top UK youtubers 2024.png)
+![Data Visualisation](assets/images/Top UK youtubers 2024.png)
 
 # Findings
 
 
-![Data Transformation Process](assets/images/excel vs%20 sql analysis.png)
+![Data Findings](assets/images/excel vs%20 sql analysis.png)
 
 
 
