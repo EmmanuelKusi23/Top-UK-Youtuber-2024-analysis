@@ -194,7 +194,7 @@ The table shows consistent results between Excel and SQL analyses across all key
 
 
 # Recommendations
-Based the viewship metrics that is the views per subcriber, Dan Rhodes appears to be the best option because there is a higher ROI compared to other channels
+Based on the viewship metrics that is the views per subcriber, Dan Rhodes appears to be the best option because there is a higher ROI compared to other channels
 
 
 
