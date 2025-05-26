@@ -117,7 +117,7 @@ FROM
 
 Below is a visualization presentation showcasing the various youtubers along with their viewship metrics
 
-![Top UK YouTubers 2024 Rankings](assets/images/Top UK youtubers 2024.png) 
+![Top UK YouTubers 2024 Rankings](https://github.com/EmmanuelKusi23/Top-UK-Youtuber-2024-analysis/blob/main/assets/images/Top%20UK%20youtubers%202024.png) 
 The Power BI dashboard provides an insightful analysis of the top UK YouTubers based on several key metrics, helping the investment team assess potential partnership opportunities.
 
 Key Observations:
