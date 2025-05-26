@@ -1,6 +1,6 @@
 # Research Porfolio: Excel to SQL to PowerBI
 
-![Data Transformation Process](assets/images/data transformation.png)
+![Data Transformation Process](https://github.com/EmmanuelKusi23/Top-UK-Youtuber-2024-analysis/blob/main/assets/images/data%20transformation.png)
 
 # Table of contents
 
