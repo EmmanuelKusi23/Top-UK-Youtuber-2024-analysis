@@ -144,7 +144,7 @@ The relatively low engagement rate suggests that while views are strong, deeper 
 # Findings
 
 
-![Data Findings](assets/images/excel vs%20 sql analysis.png)
+![Data Findings](https://github.com/EmmanuelKusi23/Top-UK-Youtuber-2024-analysis/blob/main/assets/images/excel%20vs%20%20sql%20analysis.png)
 
 Key Assumptions and Inputs:
 Conversion rate: 2% (0.02), which implies that 2% of viewers potentially purchase a product.
